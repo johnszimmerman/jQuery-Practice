@@ -1,0 +1,86 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+.rtFloat {
+	float: right;
+	padding-left: 6px;
+}
+.clearit {
+	clear: both;
+}  
+.container {
+	font-family: Tahoma, Geneva, sans-serif;
+	width: 650px;
+	margin-right: auto;
+	margin-left: auto;
+	background: url(../images/fruitopiaBar.jpg) no-repeat;
+	padding-left: 250px;
+	height: 465px;
+	padding-top: 35px;
+	border: 2px solid #F18F48;
+	margin-top: 20px;
+	position: relative;
+}
+.container .fruitFall {
+	position:absolute;
+	left: 0;
+	top:240px;	
+}
+h1 {
+	font-size: 110%;
+	color: #FFF;
+	background: #F18F48;
+	font-weight: bold;
+	padding-left: 10px;
+	margin-bottom: 10px;
+}
+h2 {
+	font-size: 100%;
+	color: #B0B848;
+	margin-bottom: 10px;
+	padding-left: 10px;
+	background-color:#fff;
+} 
+p {
+	color: #C60;
+	font-size: 90%;
+	padding-left: 10px;
+	padding-bottom: 10px;
+}
+
+ul.nav {
+	list-style: none;
+	margin-right:15px;
+}
+ul.nav li {
+	float: right;
+	display: block;
+	background: #FC3;
+	border-radius: 5px 5px 0px 0px;
+	-moz-border-radius: 5px 5px 0px 0px;
+	-webkit-border-bottom-right-radius: 0px;
+	-webkit-border-bottom-left-radius: 0px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-left: 6px;
+	font-size: 80%;
+	color: #C63;
+}
+.nav li a {
+	color: #c63;
+	text-decoration: none;
+}
+.nav li a:hover {
+	color: #FFF;
+}
+.nav .navHover {
+	background:#F18F48;
+}
+.mainContent img {
+	margin-right: 4px;
+}
+.mainContent, .cocktails, .tTreats, .salads, .beverage {
+	padding-right: 20px;
+	background-color:#fff;
+}

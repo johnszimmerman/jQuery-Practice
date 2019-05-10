@@ -1,0 +1,43 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	background: url(../images/repeat.jpg) repeat-x;
+}
+h1, h2 {
+	color: #C73F49;
+}
+p, h1, h2, h3, ul, ol {
+	padding-bottom: 15px;
+}  
+.container {
+	font-family: Tahoma, Geneva, sans-serif;
+	width: 900px;
+	margin-right: auto;
+	margin-left: auto;
+	background: url(../images/screwdriverHeader.jpg) no-repeat;
+	padding-top: 225px;
+	padding-left: 40px;
+}
+.infoBox {
+	position: relative;
+}
+.readMore {
+	height: 50px;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+.readMore a {
+	background: url(../images/screw.jpg) no-repeat left top;
+	padding-left: 50px;
+	color: #992122;
+	text-decoration: none;
+	height: 35px;
+	display: block;
+	padding-top: 15px;
+}
+.readMore a:hover {
+	color: #333;
+}
